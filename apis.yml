@@ -1,23 +1,89 @@
 aid: datatheorem
+
 name: Data Theorem
-description: 'Data Theorem is a company surfaced via the API Evangelist harvest backlog (source: gartner-mq)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Data Theorem provides application security solutions that protect APIs, cloud-native applications, and mobile apps throughout the
+  software development lifecycle. Their platform offers API security, code security, cloud security, and mobile security, leveraging AI to detect
+  and remediate vulnerabilities, enforce compliance, and secure runtime environments.
+
 url: https://raw.githubusercontent.com/api-evangelist/datatheorem/refs/heads/main/apis.yml
+
 x-type: company
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found on the API host or docs pages.
+  evidence:
+  - url: https://api.datatheorem.com/openapi.json
+    status: 404
+  - url: https://www.datatheorem.com/openapi.json
+    status: 404
+  checked: '2026-10-03'
+
 x-source: harvest:gartner-mq
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-03 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-03'
+
 modified: '2026-10-03'
+
 tags:
 - Company
-apis: []
+- Application Security
+- API Security
+- Cloud Security
+- Mobile Security
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/datatheorem-rules.yml
+- type: Conformance
+  url: conformance/datatheorem-conformance.yml
+- type: LLMsTxt
+  url: llms/datatheorem-llms.txt
+- type: Hosts
+  url: hosts/datatheorem-hosts.yml
+- type: Vendors
+  url: vendors/datatheorem-vendors.yml
+- type: PrivacyPolicy
+  url: https://www.datatheorem.com/privacy
+- type: Newsroom
+  url: https://www.datatheorem.com/news/awards
+- type: DomainSecurity
+  url: security/datatheorem-domain-security.yml
 - type: Website
   url: https://www.datatheorem.com
+
+apis:
+- name: API Secure
+  description: API security solution protecting APIs throughout the software development lifecycle.
+  humanURL: https://www.datatheorem.com/products/api-secure
+  baseURL: null
+  aid: datatheorem:api-secure
+- aid: datatheorem:datatheorem-api
+  name: Data Theorem API
+  description: 'Data Theorem API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-03);
+
+    not the provider''s own document.'
+  humanURL: https://www.datatheorem.com/products/api-secure
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/datatheorem-openapi-generated.yml
+    x-provenance: generated
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

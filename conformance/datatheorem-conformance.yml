@@ -1,0 +1,45 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.datatheorem.com/solutions/ai-security/
+sources:
+- https://www.datatheorem.com/solutions/ai-security/
+- https://www.datatheorem.com/solutions/security-for-vibe-coded-apps/
+- https://www.datatheorem.com/solutions/application-security-testing/
+- https://www.datatheorem.com/solutions/compliance/
+standards:
+- id: soc2
+  conforms: true
+  evidence: gavel SOC 2, ISO 27001, NIST medical_services HIPAA Health payments PCI DSS Retail policy GDPR & CCPA inventory
+- id: iso-27001
+  conforms: true
+  evidence: gavel SOC 2, ISO 27001, NIST medical_services HIPAA Health payments PCI DSS Retail policy GDPR & CCPA inventory
+- id: hipaa
+  conforms: true
+  evidence: gavel SOC 2, ISO 27001, NIST medical_services HIPAA Health payments PCI DSS Retail policy GDPR & CCPA inventory
+- id: pci-dss
+  conforms: true
+  evidence: gavel SOC 2, ISO 27001, NIST medical_services HIPAA Health payments PCI DSS Retail policy GDPR & CCPA inventory
+- id: gdpr
+  conforms: true
+  evidence: gavel SOC 2, ISO 27001, NIST medical_services HIPAA Health payments PCI DSS Retail policy GDPR & CCPA inventory
+- id: ccpa
+  conforms: true
+  evidence: gavel SOC 2, ISO 27001, NIST medical_services HIPAA Health payments PCI DSS Retail policy GDPR & CCPA inventory
+- id: nist-csf
+  conforms: true
+  evidence: gavel SOC 2, ISO 27001, NIST medical_services HIPAA Health payments PCI DSS Retail policy GDPR & CCPA inventory
+- id: openapi-3.1
+  conforms: true
+  evidence: the document declares 3.1.0
+- id: oauth2
+  conforms: false
+  evidence: no securitySchemes declared
+- id: rfc9457
+  conforms: false
+  evidence: no response declares application/problem+json
+- id: idempotency
+  conforms: false
+  evidence: no idempotency key parameter on mutating operations
+docs: https://www.datatheorem.com/solutions/ai-security/
+note: 4 extracted row(s) were dropped because their quote was not on the page.

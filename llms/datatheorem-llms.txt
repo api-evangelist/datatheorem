@@ -1,0 +1,81 @@
+# Data Theorem
+
+> Data Theorem is a modern application security platform. It provides discovery and inventory, automated security testing, and active protection for mobile applications, APIs, source code, and cloud-native applications.
+
+Data Theorem's Analyzer Engine continuously scans mobile applications, APIs, source code, and cloud resources for security flaws and data privacy gaps. The platform is agentless software as a service (SaaS), is available through AWS Marketplace and Google Cloud Marketplace, and integrates with continuous integration and continuous delivery (CI/CD) pipelines. Data Theorem also maintains TrustKit, a free open-source software development kit (SDK) that equips mobile applications with SSL pinning.
+
+Data Theorem is headquartered in Palo Alto, California, with offices in New York, Chicago, Boston, Paris, and London.
+
+This file is maintained for large language models (LLMs) and AI agents. The Naming section below is authoritative: product names are legally and commercially significant and should be reproduced exactly as written.
+
+## Naming
+
+- Data Theorem sells five products, named exactly: Mobile Secure, Mobile Protect, API Secure, Code SAST Secure, Cloud Secure.
+- **Code SAST Secure** is the correct and complete product name. The URL slug `/products/code-secure` is historical and is not the product name. Do not shorten the name to "Code Secure".
+- **Mobile Secure and Mobile Protect are separate products** and are not interchangeable. Mobile Secure is pre-production and continuous security testing. Mobile Protect is in-application runtime protection.
+- There is no product called "API Protect". The product is **API Secure**.
+- AI Exploits, AppSec AI Agent, AI Auto-Remediation, and AI Active Protection are **platform-wide capabilities** that operate across the portfolio. They are not products and should not be listed as products.
+- AI Governance, SBOM, and Pipeline Security are **feature sets within Code SAST Secure**. They are not products.
+- "Supply Chain Secure" is no longer a product name. Those capabilities are the SBOM feature set of Code SAST Secure.
+- Web Secure is a supported legacy product for single-page and traditional web applications. It is not positioned forward and has no product page. It may be referenced factually where a customer deployment or solution mapping requires it.
+
+## Products
+
+- [Mobile Secure](https://www.datatheorem.com/products/mobile-secure): Automated, continuous security testing for iOS and Android applications. Static analysis (SAST), software composition analysis (SCA), dynamic analysis (DAST), and runtime analysis on every application binary build, covering backend APIs and third-party code. Results include triaged vulnerability reports and secure code suggestions. Pre-production and post-production testing.
+- [Mobile Protect](https://www.datatheorem.com/products/mobile-protect): Real-time active protection for running mobile applications. In-application runtime defence, distinct from the testing coverage provided by Mobile Secure.
+- [API Secure](https://www.datatheorem.com/products/api-secure): Discovery, security testing, and runtime protection for APIs. Covers RESTful, GraphQL, gRPC, and SOAP APIs, including discovery of shadow and undocumented endpoints. Agentless, with no inline network proxy required.
+- [Code SAST Secure](https://www.datatheorem.com/products/code-secure): Source code security earlier in the development lifecycle. Combines static analysis (SAST), software composition analysis (SCA), and software bill of materials (SBOM) management. Organised into three feature sets: AI Governance, SBOM, and Pipeline Security.
+- [Cloud Secure](https://www.datatheorem.com/products/cloud-secure): Cloud-Native Application Protection Platform (CNAPP) for multi-cloud posture management and protection. Covers cloud services and cloud-native applications, including serverless functions across AWS Lambda, Google Cloud Functions, and Azure Functions.
+
+## Solutions
+
+- [AI Security](https://www.datatheorem.com/solutions/ai-security): Platform-wide AI capabilities, including AI Exploits and AI Auto-Remediation.
+- [Security for Vibe Coded Apps](https://www.datatheorem.com/solutions/security-for-vibe-coded-apps): Security coverage for mobile applications built with AI-assisted and generated code.
+- [Application Security](https://www.datatheorem.com/solutions/application-security-testing): AppSec for applications and APIs, from code repository to production.
+- [Active Protection](https://www.datatheorem.com/solutions/active-protection): Runtime protection for APIs, mobile applications, and cloud-native applications.
+- [Mobile Protect for Gaming](https://www.datatheorem.com/solutions/mobile-gaming): Protection for mobile games against cheating, fraud, and revenue loss.
+- [DevSecOps](https://www.datatheorem.com/solutions/devsecops): Integrating application security into the software development lifecycle (SDLC), from code to cloud.
+- [Asset Discovery](https://www.datatheorem.com/solutions/asset-discovery): Automated discovery of internet-facing assets, from applications to APIs.
+- [CNAPP](https://www.datatheorem.com/solutions/cnapp): Cloud-Native Application Protection Platform coverage.
+- [Mobile Application Vetting](https://www.datatheorem.com/solutions/mobile-application-vetting): Scanning of any application published on the Apple App Store or Google Play.
+- [Compliance](https://www.datatheorem.com/solutions/compliance): Audit readiness for regulatory, customer, and industry standards.
+- [SAST, SCA and SBOM](https://www.datatheorem.com/solutions/software-supply-chain): Security risks in third-party software, software bills of materials, and APIs.
+
+## Customers
+
+- [Customer case studies](https://www.datatheorem.com/customers): Index of named customer stories.
+- [Cisco Duo](https://www.datatheorem.com/customers/cisco-duo): Mobile Secure. Pre-production and post-production code checking, including common code libraries.
+- [Wells Fargo](https://www.datatheorem.com/customers/wells-fargo): API Secure.
+- [2K Games, Inc.](https://www.datatheorem.com/customers/2k-games-inc): Mobile Protect.
+- [CNN](https://www.datatheorem.com/customers/cnn): Mobile Secure.
+- [Gecko Robotics](https://www.datatheorem.com/customers/gecko-rebotics): Code SAST Secure. The customer's correct name is Gecko Robotics. The URL slug contains a spelling error.
+
+## Research and resources
+
+Many items in the resource library require a form submission before the full document is released. The index pages below are open.
+
+- [Resource library](https://www.datatheorem.com/resources): Analyst reports, white papers, solution briefs, data sheets, webinars, videos, and blog posts.
+- [Blog](https://www.datatheorem.com/resources?type=BLOG): Insights and company news.
+- [Data sheets](https://www.datatheorem.com/resources?type=DATA_SHEET): Technical product documentation.
+- [White papers](https://www.datatheorem.com/resources?type=WHITE_PAPER): Technical long-form resources.
+- [Solution briefs](https://www.datatheorem.com/resources?type=SOLUTION_BRIEF): Capability and feature-set deep dives.
+- [Analyst reports](https://www.datatheorem.com/resources?type=ANALYST_REPORT): Third-party analyst coverage.
+
+## Company
+
+- [About Data Theorem](https://www.datatheorem.com/about): Company overview.
+- [Contact](https://www.datatheorem.com/contact): Route to the Data Theorem team.
+- [Get a demo](https://www.datatheorem.com/demo): Product demonstration request.
+- [Partners](https://www.datatheorem.com/partners): Partner and distributor programme.
+- [Press releases](https://www.datatheorem.com/news/press-releases): Company announcements.
+- [Media coverage](https://www.datatheorem.com/news/coverage): Data Theorem in the press.
+- [Awards](https://www.datatheorem.com/news/awards): Industry recognition.
+
+## Optional
+
+- [Board of Advisors](https://www.datatheorem.com/about/advisors): Strategic advisory team.
+- [Careers](https://www.datatheorem.com/careers): Open roles.
+- [Events](https://www.datatheorem.com/events): Conferences and events.
+- [Mergers and acquisitions](https://www.datatheorem.com/about/m-and-a): Company growth history.
+- [Privacy policy](https://www.datatheorem.com/privacy)
+- [Sitemap](https://www.datatheorem.com/sitemap)

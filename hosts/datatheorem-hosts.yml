@@ -1,0 +1,56 @@
+generated: '2026-10-03'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 3
+  own: 3
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - partner
+  - website
+hosts:
+- host: api.datatheorem.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: datatheorem.com
+  role: api
+  relation: own
+- host: partners.datatheorem.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  title: Sign in ・ Cloudflare Access
+  status: 200
+  registrable_domain: datatheorem.com
+  role: partner
+  relation: own
+- host: www.datatheorem.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - PrivacyPolicy
+  - Newsroom
+  - Website
+  serves:
+  - docs
+  - cdn
+  vendor: fastly
+  registrable_domain: datatheorem.com
+  role: website
+  relation: own

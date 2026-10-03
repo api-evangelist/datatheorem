@@ -1,0 +1,32 @@
+generated: '2026-10-03'
+method: probed
+source: https://www.datatheorem.com/privacy/
+signals:
+  data_retention:
+    evidence:
+      - source: https://www.datatheorem.com/privacy/
+        http_status: 200
+        fetched: /tmp/dt_privacy.html
+        quote: "Data Theorem may retain your personal information data as long as is necessary to fulfill the purposes for which it was collected and in accordance with Data Theorem’s record retention policy and applicable law."
+    note: Retains data per policy, no fixed period disclosed.
+  data_subject_request:
+    evidence:
+      - source: https://www.datatheorem.com/privacy/
+        http_status: 200
+        fetched: /tmp/dt_privacy.html
+        quote: "Data Theorem will delete your personal information data upon request (via email to privacy@datatheorem.com)."
+    note: Provides deletion upon request via email.
+  ai_transparency:
+    evidence:
+      - source: https://www.datatheorem.com/privacy/
+        http_status: 200
+        fetched: /tmp/dt_privacy.html
+        quote: "When AI technologies are used in connection with our Services, we will not use, process, or share your information in any manner that compromises your privacy, security, or confidentiality."
+    note: States AI does not compromise privacy.
+  incident_notification:
+    evidence:
+      - source: https://www.datatheorem.com/privacy/
+        http_status: 200
+        fetched: /tmp/dt_privacy.html
+        quote: "Data Theorem takes all reasonable steps to protect your information from loss, misuse, unauthorized access or disclosure, alteration, or destruction, including through the use of encryption when collecting or transferring sensitive data such as credit card information."
+    note: Describes security measures but does not specify breach notification.
