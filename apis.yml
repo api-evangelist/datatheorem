@@ -71,16 +71,15 @@ apis:
   humanURL: https://www.datatheorem.com/products/api-secure
   baseURL: null
   aid: datatheorem:api-secure
-- aid: datatheorem:datatheorem-api
-  name: Data Theorem API
-  description: 'Data Theorem API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-03);
-
-    not the provider''s own document.'
+- aid: datatheorem:datatheorem-llm-query-api
+  name: Data Theorem Llm Query API
+  description: The Llm Query API from Data Theorem — 1 operation(s) for llm query.
   humanURL: https://www.datatheorem.com/products/api-secure
+  tags:
+  - Llm Query
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/datatheorem-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/datatheorem-llm-query-api-openapi.yml
 x-enrichment:
   date: '2026-10-03'
   status: enriched

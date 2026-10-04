@@ -1,0 +1,20 @@
+{
+  "provider": "datatheorem",
+  "sources": [
+    "_ae-authored/datatheorem-openapi-generated.yml"
+  ],
+  "outputs": [
+    "datatheorem-llm-query-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "datatheorem-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "datatheorem-openapi-generated.yml: tagged paths GET /api/v1/llm-query -> Llm Query",
+    "datatheorem-openapi-generated.yml: declared missing tag: Llm Query",
+    "apis.yml register: written (+1 apis, 2 total)"
+  ],
+  "skipped": []
+}
