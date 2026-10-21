@@ -3,6 +3,7 @@ method: searched
 checked:
 - https://aws.amazon.com/marketplace/
 - https://github.com/marketplace?type=apps
+- atlassian/integrations/atlassian-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -35,5 +36,22 @@ edges:
   publisher_name: Data Theorem
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: Atlassian (own)
+  partner: atlassian
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.atlassian.com/vendors/1223701/data-theorem
+  mirror_of: atlassian/integrations/atlassian-integration-edges.yml
+  apps:
+  - Data Theorem (SAST)
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: Security
 source:
 - https://github.com/marketplace?type=apps
