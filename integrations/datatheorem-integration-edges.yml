@@ -4,6 +4,7 @@ checked:
 - https://aws.amazon.com/marketplace/
 - https://github.com/marketplace?type=apps
 - atlassian/integrations/atlassian-integration-edges.yml
+- google-play/integrations/google-play-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -53,5 +54,24 @@ edges:
   detected: '2026-10-21'
   detected_by: mirror-platform-listings.py
   category: Security
+- partner_name: Google Play Developer (Google Play SDK Index)
+  partner: google-play
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: Google Play SDK Index
+  evidence: https://play.google.com/sdks/details/com-datatheorem-android-trustkit-trustkit
+  mirror_of: google-play/integrations/google-play-integration-edges.yml
+  apps:
+  - Mobile Protect (TrustKit)
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: mobile SDK (data-management)
+  publisher_verified:
+  - Registered in Google Play SDK Console
 source:
 - https://github.com/marketplace?type=apps
