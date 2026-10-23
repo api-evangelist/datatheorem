@@ -5,6 +5,7 @@ checked:
 - https://github.com/marketplace?type=apps
 - atlassian/integrations/atlassian-integration-edges.yml
 - google-play/integrations/google-play-integration-edges.yml
+- jenkins/integrations/jenkins-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -73,5 +74,23 @@ edges:
   category: mobile SDK (data-management)
   publisher_verified:
   - Registered in Google Play SDK Console
+- partner_name: Jenkins (own)
+  partner: jenkins
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://plugins.jenkins.io/datatheorem-mobile-app-security/
+  mirror_of: jenkins/integrations/jenkins-integration-edges.yml
+  apps:
+  - 'Data Theorem Mobile Security: CI/CD'
+  - 'Data Theorem Mobile Security: CI/CD (datatheorem-mobile-app-security)'
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Jenkins plugin
 source:
 - https://github.com/marketplace?type=apps
